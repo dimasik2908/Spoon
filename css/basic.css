@@ -5,6 +5,7 @@
     --fontLF: "Libre Franklin", serif;
     --fontIMB: "IBM Plex Mono", serif;
     --colorGreen: #5AB963;
+    font-family: var(--fontLF);
 }
 
 *{
@@ -31,4 +32,16 @@ a{
 
 li{
     list-style: none;
+}
+.info{
+color: #999;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+font-family: var(--fontLF);
+max-width: 507px;
+}  
+.info-extra{
+    color: black;
+    font-weight: 700;
 }
